@@ -1,0 +1,182 @@
+Customer Shopping Behavior Analysis
+Project Overview
+
+This project analyzes customer shopping behavior using SQL, Python, and Power BI. The objective is to uncover purchasing patterns, customer preferences, revenue drivers, and business insights that can help improve decision-making in retail and e-commerce environments.
+
+The project follows a complete analytics workflow:
+
+Data Cleaning
+Exploratory Data Analysis (EDA)
+Business Analytics using SQL
+Interactive Dashboard Development using Power BI
+Dataset Description
+
+The dataset contains customer purchase information, demographic details, shopping preferences, and transaction-related attributes.
+
+Features
+Column	Description
+customer_id	Unique customer identifier
+age	Customer age
+gender	Customer gender
+item_purchased	Product purchased
+category	Product category
+purchase_amount	Purchase amount
+location	Customer location
+size	Product size
+color	Product color
+season	Season of purchase
+review_rating	Customer review rating
+subscription_status	Subscription membership status
+shipping_type	Shipping method selected
+discount_applied	Discount usage indicator
+previous_purchases	Number of previous purchases
+payment_method	Payment method used
+frequency_of_purchases	Purchase frequency category
+age_group	Customer age segment
+purchase_frequency_days	Days between purchases
+Project Objectives
+Analyze customer purchasing behavior.
+Identify top-performing product categories.
+Evaluate customer spending patterns.
+Study the impact of discounts and subscriptions.
+Identify seasonal sales trends.
+Analyze payment and shipping preferences.
+Create an interactive business intelligence dashboard.
+Tools & Technologies
+Programming & Analytics
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Database
+PostgreSQL
+SQL
+Business Intelligence
+Power BI
+Development Environment
+Jupyter Notebook
+pgAdmin
+Project Structure
+Customer-Shopping-Behavior-Analysis/
+│
+├── Customer_Shopping_Behavior.csv
+├── Data Cleaning and EDA.ipynb
+├── Buisness_Questions.sql
+├── Customer Shopping Behavior.pbix
+├── README.md
+│
+└── outputs/
+    ├── cleaned_dataset.csv
+    ├── visualizations
+    └── dashboard_screenshots
+Data Cleaning
+
+The following preprocessing steps were performed:
+
+Removed duplicate records
+Checked and handled missing values
+Standardized column names
+Converted data types where necessary
+Created age group categories
+Generated purchase frequency metrics
+Validated numerical and categorical attributes
+Exploratory Data Analysis
+
+EDA focused on understanding:
+
+Customer demographics
+Product category distribution
+Purchase amount trends
+Seasonal shopping behavior
+Rating distribution
+Payment preferences
+Subscription analysis
+Key Visualizations
+Age Distribution
+Gender Distribution
+Category-wise Sales
+Seasonal Sales Analysis
+Review Rating Distribution
+Payment Method Analysis
+Subscription Status Comparison
+SQL Business Analytics
+
+The SQL analysis answers several business questions, including:
+
+Revenue Analysis
+Which category generates the highest revenue?
+Which locations contribute the most sales?
+Customer Analysis
+Which age group spends the most?
+Who are the top-spending customers?
+Marketing Analysis
+Does subscription status affect spending?
+Do discounts increase purchase amounts?
+Operational Analysis
+Which payment method is most preferred?
+Which shipping method generates maximum revenue?
+Seasonal Analysis
+Which season records the highest sales?
+Power BI Dashboard
+
+The Power BI dashboard provides:
+
+KPIs
+Total Revenue
+Average Purchase Amount
+Total Customers
+Average Rating
+Interactive Visualizations
+Revenue by Category
+Revenue by Location
+Seasonal Sales Analysis
+Subscription Status Breakdown
+Payment Method Distribution
+Customer Age Group Analysis
+Shipping Type Analysis
+Dashboard Features
+Interactive Filters
+Dynamic Charts
+Drill-down Analysis
+Business KPI Monitoring
+Key Insights
+Product categories contribute differently to overall revenue.
+Customer spending varies across age groups.
+Seasonal patterns significantly influence sales.
+Discounts impact purchasing behavior.
+Subscription programs affect customer engagement.
+Certain payment methods dominate customer preferences.
+Repeat customers contribute substantially to revenue.
+How to Run the Project
+Clone the Repository
+git clone https://github.com/Varun-Ba/customer-shopping-behavior-analysis.git
+Install Dependencies
+pip install pandas numpy matplotlib seaborn
+Open Jupyter Notebook
+jupyter notebook
+
+Run:
+
+Data Cleaning and EDA.ipynb
+Execute SQL Queries
+
+Import the dataset into PostgreSQL and run:
+
+Buisness_Questions.sql
+Open Power BI Dashboard
+Customer Shopping Behavior.pbix
+
+using Power BI Desktop.
+
+Future Improvements
+Customer Segmentation using Clustering
+Predictive Purchase Analysis
+Recommendation System Development
+Customer Lifetime Value Analysis
+Sales Forecasting Models
+Author
+
+Varun Bagga
+
+Data Analytics | SQL | Python | Power BI
